@@ -174,7 +174,7 @@ Forms
 2. Remove the margin in Firefox and Safari.
 */
 
-button,
+portfolio__btn,
 input,
 optgroup,
 select,
@@ -193,7 +193,7 @@ textarea {
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
-button,
+portfolio__btn,
 select {
     text-transform: none;
 }
@@ -202,11 +202,11 @@ select {
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button,
-[type='button'],
+portfolio__btn,
+[type='portfolio__btn'],
 [type='reset'],
 [type='submit'] {
-    -webkit-appearance: button;
+    -webkit-appearance: portfolio__btn;
 }
 
 /**
@@ -223,7 +223,7 @@ Restore the focus styles unset by the previous rule.
 */
 
 :-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted portfolio__btnText;
 }
 
 /**
@@ -236,7 +236,7 @@ See: https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d4
 }
 
 /**
-Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+Remove the padding so developers are not caught out when they zero out 'form-modal__labelset' elements in all browsers.
 */
 
 legend {
@@ -252,11 +252,11 @@ progress {
 }
 
 /**
-Correct the cursor style of increment and decrement buttons in Safari.
+Correct the cursor style of increment and decrement portfolio__btns in Safari.
 */
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+::-webkit-inner-spin-portfolio__btn,
+::-webkit-outer-spin-portfolio__btn {
     height: auto;
 }
 
@@ -266,7 +266,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-    -webkit-appearance: textfield;
+    -webkit-appearance: textform-modal__label;
     /* 1 */
     outline-offset: -2px;
     /* 2 */
@@ -285,8 +285,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 2. Change font properties to 'inherit' in Safari.
 */
 
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
+::-webkit-file-upload-portfolio__btn {
+    -webkit-appearance: portfolio__btn;
     /* 1 */
     font: inherit;
     /* 2 */
@@ -305,7 +305,7 @@ summary {
     display: list-item;
 }
 
-/* reset */
+/* !reset */
 
 h1,
 h2,
@@ -334,5 +334,5 @@ img {
 
 button {
     cursor: pointer;
-    border: none;
+    border: transparent;
 }
