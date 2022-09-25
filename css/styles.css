@@ -39,7 +39,6 @@
     --transition-bezier: cubic-bezier(0.4, 0, 0.2, 1);
     --transparent-medium: rgba(0, 0, 0, 0.5);
     --transparent-form: rgba(255, 255, 255, 0.3);
-    ;
 }
 
 /* general */

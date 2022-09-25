@@ -1,0 +1,41 @@
+:root {
+    /* text */
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --light-text-color: #ffffff;
+    --dark-text-color: #000000;
+    --transparent-accent-color: rgba(33, 150, 243, 0.9);
+    --transparent-text-color: rgba(255, 255, 255, 0.6);
+
+    /* background */
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2F303A;
+    --secondary-bg-color-transparent: #2F303ACC;
+    --complementary-bg-color: #F5F4FA;
+
+    /* icons */
+    --icon-color: #AFB1B8;
+    --icon-bg-color: rgba(255, 255, 255, 0.1);
+
+    /* border */
+    --header-border: #ECECEC;
+    --card-border: #EEEEEE;
+    --border-radius-button: 4px;
+    --border-radius-card: 0px 0px 4px 4px;
+
+    /* box shadow */
+    --box-shadow-button: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    --box-shadow-active: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --box-shadow-card: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --box-shadow-card-hover: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+    /* others */
+    --gap: 30px;
+    --btn-hover: #188CE8;
+    --transition-duration: 250ms;
+    --transition-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+    --transparent-medium: rgba(0, 0, 0, 0.5);
+    --transparent-form: rgba(255, 255, 255, 0.3);
+    ;
+}
