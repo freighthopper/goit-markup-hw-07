@@ -4,7 +4,7 @@
     }
 }
 
-.header__container {
+.container--header {
     display: flex;
 }
 
@@ -16,13 +16,6 @@
     &--nav {
         margin-right: auto;
     }
-}
-
-
-
-.header__logo {
-    padding: 24px 0;
-    margin-right: 93px;
 }
 
 .header__menu {
@@ -41,8 +34,9 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+    // color: var(--primary-text-color);
 
-    transition: color var(--hover-transition);
+    transition: color var(--transition-duration) var(--transition-bezier);
 
     &:hover,
     &:focus {
@@ -76,6 +70,8 @@
         gap: 10px;
 
         color: var(--secondary-text-color);
+
+        transition: color var(--transition-duration) var(--transition-bezier);
     }
 }
 

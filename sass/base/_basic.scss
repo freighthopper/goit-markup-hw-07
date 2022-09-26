@@ -1,0 +1,31 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    &--footer {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.section {
+    padding: 94px 0;
+
+    &--features {
+        margin-top: 94px;
+        margin-bottom: 0;
+    }
+}
+
+.list {
+    display: flex;
+    gap: var(--gap);
+}

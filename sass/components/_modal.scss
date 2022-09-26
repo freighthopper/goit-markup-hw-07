@@ -144,7 +144,7 @@
     left: 12px;
     bottom: 11px;
     fill: var(--accent-color);
-    transition: fill var(--hover-transition);
+    transition: fill var(--transition-duration) var(--transition-bezier);
 }
 
 .form-modal__commentary {
@@ -226,6 +226,10 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.form-modal__checkbox-icon {
+    transition: fill var(--transition-duration) var(--transition-bezier);
 }
 
 .form-modal__checkbox-icon--check {

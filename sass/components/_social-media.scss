@@ -22,7 +22,7 @@
 
     color: var(--icon-color);
 
-    transition: background-color var(--transition-duration) var(--transition-bezier);
+    transition: background-color var(--transition-duration) var(--transition-bezier), color var(--transition-duration) var(--transition-bezier);
 
     &:hover,
     &:focus {

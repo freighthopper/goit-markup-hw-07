@@ -21,12 +21,13 @@
 
     color: var(--icon-color);
 
-    transition: border var(--transition-duration) var(--transition-bezier), fill var(--transition-duration) var(--transition-bezier), color var(--transition-duration) var(--transition-bezier);
+    transition-property: border, color;
+    transition-duration: 250ms, 250ms;
+    transition-timing-function: var(--transition-bezier), var(--transition-bezier);
 
-    &__link:hover,
-    &__link:focus {
-        border: 1px solid var(--accent-color);
-        fill: var(--accent-color);
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
         color: var(--accent-color);
     }
 }
